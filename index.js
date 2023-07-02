@@ -42,7 +42,7 @@ process.on("unhandledRejection", (reason, p) => {
 
   console.log(reason, p)
 
-  const webhookClient = new WebhookClient({ id: "1055480016282062899", token: "RxFwvzKCKTWi0F_gAavAuwqxcmMSQ9XcD2AZ9cd8lq2MhpqyrZ3EOAWZXjp797MOIAdE" });
+  const webhookClient = new WebhookClient({ id: "YOUR_WEBHOOK_ID", token: "RxFwvzKCKTWi0F_gAavAuwqxcmMSQ9XcD2AZ9cd8lq2MhpqyrZ3EOAWZXjp797MOIAdE" });
   webhookClient.send({
     username: 'AntiSystem Errors',
     embeds: [
@@ -57,7 +57,7 @@ process.on("unhandledRejection", (reason, p) => {
 process.on("uncaughtException", (err, origin) => {
 
   console.log(err, origin)
-  const webhookClient2 = new WebhookClient({ id: "1055480016282062899", token: "RxFwvzKCKTWi0F_gAavAuwqxcmMSQ9XcD2AZ9cd8lq2MhpqyrZ3EOAWZXjp797MOIAdE" });
+  const webhookClient2 = new WebhookClient({ id: "YOUR_WEBHOOK_ID", token: "RxFwvzKCKTWi0F_gAavAuwqxcmMSQ9XcD2AZ9cd8lq2MhpqyrZ3EOAWZXjp797MOIAdE" });
   webhookClient2.send({
     username: 'AntiSystem Errors',
     embeds: [
@@ -74,7 +74,7 @@ process.on("uncaughtExceptionMonitor", (err, origin) => {
 
   console.log(err, origin)
 
-  const webhookClient2 = new WebhookClient({ id: "1055480016282062899", token: "RxFwvzKCKTWi0F_gAavAuwqxcmMSQ9XcD2AZ9cd8lq2MhpqyrZ3EOAWZXjp797MOIAdE" });
+  const webhookClient2 = new WebhookClient({ id: "YOUR_WEBHOOK_ID", token: "RxFwvzKCKTWi0F_gAavAuwqxcmMSQ9XcD2AZ9cd8lq2MhpqyrZ3EOAWZXjp797MOIAdE" });
   webhookClient2.send({
     username: 'AntiSystem Errors',
     embeds: [
